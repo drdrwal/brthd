@@ -29,15 +29,6 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isMouseInsideCanvas(runtimeScene);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22593812);
-}
-}
-}
-if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("NewVideo"), gdjs.EndingCode.GDNewVideoObjects1);
 {for(var i = 0, len = gdjs.EndingCode.GDNewVideoObjects1.length ;i < len;++i) {
     gdjs.EndingCode.GDNewVideoObjects1[i].play();

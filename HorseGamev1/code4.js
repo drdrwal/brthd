@@ -20,7 +20,7 @@ gdjs.bearDeathCode.GDMenuObjects2= [];
 gdjs.bearDeathCode.GDMenuObjects3= [];
 
 
-gdjs.bearDeathCode.asyncCallback22575908 = function (runtimeScene, asyncObjectsList) {
+gdjs.bearDeathCode.asyncCallback22579644 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.bearDeathCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("PurpleButtonWithShadow2"), gdjs.bearDeathCode.GDPurpleButtonWithShadow2Objects3);
 
@@ -40,14 +40,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.bearDeathCode.localVariables);
 /* Don't save PurpleButtonWithShadow2 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.bearDeathCode.asyncCallback22575908(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.bearDeathCode.asyncCallback22579644(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.bearDeathCode.asyncCallback22573844 = function (runtimeScene, asyncObjectsList) {
+};gdjs.bearDeathCode.asyncCallback22577580 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.bearDeathCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("PurpleButtonWithShadow"), gdjs.bearDeathCode.GDPurpleButtonWithShadowObjects2);
 
@@ -70,7 +70,7 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.bearDeathCode.localVariables);
 for (const obj of gdjs.bearDeathCode.GDPurpleButtonWithShadowObjects1) asyncObjectsList.addObject("PurpleButtonWithShadow", obj);
 for (const obj of gdjs.bearDeathCode.GDPurpleButtonWithShadow2Objects1) asyncObjectsList.addObject("PurpleButtonWithShadow2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.bearDeathCode.asyncCallback22573844(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.bearDeathCode.asyncCallback22577580(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -93,6 +93,9 @@ gdjs.copyArray(runtimeScene.getObjects("PurpleButtonWithShadow2"), gdjs.bearDeat
 {for(var i = 0, len = gdjs.bearDeathCode.GDNewVideoObjects1.length ;i < len;++i) {
     gdjs.bearDeathCode.GDNewVideoObjects1[i].play();
 }
+}{for(var i = 0, len = gdjs.bearDeathCode.GDNewVideoObjects1.length ;i < len;++i) {
+    gdjs.bearDeathCode.GDNewVideoObjects1[i].setVolume(0);
+}
 }{for(var i = 0, len = gdjs.bearDeathCode.GDNewTextObjects1.length ;i < len;++i) {
     gdjs.bearDeathCode.GDNewTextObjects1[i].hide();
 }
@@ -111,6 +114,7 @@ gdjs.copyArray(runtimeScene.getObjects("PurpleButtonWithShadow2"), gdjs.bearDeat
 }{for(var i = 0, len = gdjs.bearDeathCode.GDPurpleButtonWithShadow2Objects1.length ;i < len;++i) {
     gdjs.bearDeathCode.GDPurpleButtonWithShadow2Objects1[i].getBehavior("Opacity").setOpacity(0);
 }
+}{gdjs.evtTools.sound.playMusic(runtimeScene, "sounds\\bear attack.mp3", false, 100, 1);
 }}
 
 }

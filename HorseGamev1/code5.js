@@ -33,7 +33,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseInsideCanvas(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22589660);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22593812);
 }
 }
 }
@@ -67,7 +67,7 @@ for (var i = 0, k = 0, l = gdjs.EndingCode.GDNewVideoObjects1.length;i<l;++i) {
 gdjs.EndingCode.GDNewVideoObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22590012);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22594916);
 }
 }
 if (isConditionTrue_0) {

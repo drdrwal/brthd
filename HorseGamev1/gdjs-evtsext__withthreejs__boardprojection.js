@@ -220,7 +220,7 @@ gdjs.evtsExt__WithThreeJS__BoardProjection.BoardProjection.prototype.doStepPostE
 gdjs.evtsExt__WithThreeJS__BoardProjection.BoardProjection.prototype.doStepPostEventsContext.GDObjectObjects2= [];
 
 
-gdjs.evtsExt__WithThreeJS__BoardProjection.BoardProjection.prototype.doStepPostEventsContext.userFunc0xe833c8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__BoardProjection.BoardProjection.prototype.doStepPostEventsContext.userFunc0x8d4d00 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -312,7 +312,7 @@ gdjs.copyArray(gdjs.evtsExt__WithThreeJS__BoardProjection.BoardProjection.protot
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__WithThreeJS__BoardProjection.BoardProjection.prototype.doStepPostEventsContext.GDObjectObjects2);
-gdjs.evtsExt__WithThreeJS__BoardProjection.BoardProjection.prototype.doStepPostEventsContext.userFunc0xe833c8(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__BoardProjection.BoardProjection.prototype.doStepPostEventsContext.userFunc0x8d4d00(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -341,7 +341,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.evtsExt__WithThreeJS__BoardProjection.BoardProjection.prototype.doStepPostEventsContext.userFunc0xefbb38 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+};gdjs.evtsExt__WithThreeJS__BoardProjection.BoardProjection.prototype.doStepPostEventsContext.userFunc0x8d4fa8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -452,7 +452,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__WithThr
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__WithThreeJS__BoardProjection.BoardProjection.prototype.doStepPostEventsContext.GDObjectObjects1);
-gdjs.evtsExt__WithThreeJS__BoardProjection.BoardProjection.prototype.doStepPostEventsContext.userFunc0xefbb38(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__BoardProjection.BoardProjection.prototype.doStepPostEventsContext.userFunc0x8d4fa8(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -535,7 +535,7 @@ gdjs.evtsExt__WithThreeJS__BoardProjection.BoardProjection.prototype.onDestroyCo
 gdjs.evtsExt__WithThreeJS__BoardProjection.BoardProjection.prototype.onDestroyContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__WithThreeJS__BoardProjection.BoardProjection.prototype.onDestroyContext.userFunc0xfc2f48 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__BoardProjection.BoardProjection.prototype.onDestroyContext.userFunc0xf21b78 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 // 生成と同時に削除された場合、3D化されていないので回避
 // FirstFrame == true のほうが理想的だが取得がめんどくさいので Id を利用。
@@ -563,7 +563,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__WithThr
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__WithThreeJS__BoardProjection.BoardProjection.prototype.onDestroyContext.GDObjectObjects1);
-gdjs.evtsExt__WithThreeJS__BoardProjection.BoardProjection.prototype.onDestroyContext.userFunc0xfc2f48(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__BoardProjection.BoardProjection.prototype.onDestroyContext.userFunc0xf21b78(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

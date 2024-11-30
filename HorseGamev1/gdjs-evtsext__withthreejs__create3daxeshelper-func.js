@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Create3DAxesHelper !== "undefined") {
 gdjs.evtsExt__WithThreeJS__Create3DAxesHelper = {};
 
 
-gdjs.evtsExt__WithThreeJS__Create3DAxesHelper.userFunc0x1941e68 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Create3DAxesHelper.userFunc0x1a57b60 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -35,7 +35,7 @@ gdjs.evtsExt__WithThreeJS__Create3DAxesHelper.eventsList0 = function(runtimeScen
 {
 
 
-gdjs.evtsExt__WithThreeJS__Create3DAxesHelper.userFunc0x1941e68(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Create3DAxesHelper.userFunc0x1a57b60(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

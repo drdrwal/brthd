@@ -20,6 +20,8 @@ gdjs.MenuCode.GDNewText3Objects1= [];
 gdjs.MenuCode.GDNewText3Objects2= [];
 gdjs.MenuCode.GDNewSprite2Objects1= [];
 gdjs.MenuCode.GDNewSprite2Objects2= [];
+gdjs.MenuCode.GDMedievalButtonBrown4Objects1= [];
+gdjs.MenuCode.GDMedievalButtonBrown4Objects2= [];
 gdjs.MenuCode.GDfadeScreenObjects1= [];
 gdjs.MenuCode.GDfadeScreenObjects2= [];
 gdjs.MenuCode.GDMenuObjects1= [];
@@ -250,6 +252,61 @@ if (isConditionTrue_0) {
 }
 
 
+{
+
+gdjs.copyArray(runtimeScene.getObjects("MedievalButtonBrown4"), gdjs.MenuCode.GDMedievalButtonBrown4Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.MenuCode.GDMedievalButtonBrown4Objects1.length;i<l;++i) {
+    if ( gdjs.MenuCode.GDMedievalButtonBrown4Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.MenuCode.GDMedievalButtonBrown4Objects1[k] = gdjs.MenuCode.GDMedievalButtonBrown4Objects1[i];
+        ++k;
+    }
+}
+gdjs.MenuCode.GDMedievalButtonBrown4Objects1.length = k;
+if (isConditionTrue_0) {
+{gdjs.evtTools.variable.toggleVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(0));
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(0), true, false);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("MedievalButtonBrown4"), gdjs.MenuCode.GDMedievalButtonBrown4Objects1);
+{gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
+}{for(var i = 0, len = gdjs.MenuCode.GDMedievalButtonBrown4Objects1.length ;i < len;++i) {
+    gdjs.MenuCode.GDMedievalButtonBrown4Objects1[i].SetLabelText("Wyłącz FlScr", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(0), false, false);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("MedievalButtonBrown4"), gdjs.MenuCode.GDMedievalButtonBrown4Objects1);
+{gdjs.evtTools.window.setFullScreen(runtimeScene, false, true);
+}{for(var i = 0, len = gdjs.MenuCode.GDMedievalButtonBrown4Objects1.length ;i < len;++i) {
+    gdjs.MenuCode.GDMedievalButtonBrown4Objects1[i].SetLabelText("Full Screen", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
 };
 
 gdjs.MenuCode.func = function(runtimeScene) {
@@ -275,6 +332,8 @@ gdjs.MenuCode.GDNewText3Objects1.length = 0;
 gdjs.MenuCode.GDNewText3Objects2.length = 0;
 gdjs.MenuCode.GDNewSprite2Objects1.length = 0;
 gdjs.MenuCode.GDNewSprite2Objects2.length = 0;
+gdjs.MenuCode.GDMedievalButtonBrown4Objects1.length = 0;
+gdjs.MenuCode.GDMedievalButtonBrown4Objects2.length = 0;
 gdjs.MenuCode.GDfadeScreenObjects1.length = 0;
 gdjs.MenuCode.GDfadeScreenObjects2.length = 0;
 gdjs.MenuCode.GDMenuObjects1.length = 0;
@@ -301,6 +360,8 @@ gdjs.MenuCode.GDNewText3Objects1.length = 0;
 gdjs.MenuCode.GDNewText3Objects2.length = 0;
 gdjs.MenuCode.GDNewSprite2Objects1.length = 0;
 gdjs.MenuCode.GDNewSprite2Objects2.length = 0;
+gdjs.MenuCode.GDMedievalButtonBrown4Objects1.length = 0;
+gdjs.MenuCode.GDMedievalButtonBrown4Objects2.length = 0;
 gdjs.MenuCode.GDfadeScreenObjects1.length = 0;
 gdjs.MenuCode.GDfadeScreenObjects2.length = 0;
 gdjs.MenuCode.GDMenuObjects1.length = 0;

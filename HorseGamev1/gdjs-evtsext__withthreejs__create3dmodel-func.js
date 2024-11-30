@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Create3DModel !== "undefined") {
 gdjs.evtsExt__WithThreeJS__Create3DModel = {};
 
 
-gdjs.evtsExt__WithThreeJS__Create3DModel.userFunc0x11d9e00 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Create3DModel.userFunc0x11ffc08 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -92,7 +92,7 @@ gdjs.evtsExt__WithThreeJS__Create3DModel.eventsList0 = function(runtimeScene, ev
 {
 
 
-gdjs.evtsExt__WithThreeJS__Create3DModel.userFunc0x11d9e00(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Create3DModel.userFunc0x11ffc08(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

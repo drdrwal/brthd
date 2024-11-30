@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__onFirstSceneLoaded !== "undefined") {
 gdjs.evtsExt__WithThreeJS__onFirstSceneLoaded = {};
 
 
-gdjs.evtsExt__WithThreeJS__onFirstSceneLoaded.userFunc0x18c2d38 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__onFirstSceneLoaded.userFunc0x11a4628 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs.__WithThreeJS = new Map();
 gdjs.__WithThreeJS.set("NoTHREE", typeof THREE != "object");
@@ -310,7 +310,7 @@ gdjs.__WithThreeJS.set("DisposeChildren", function(Obj) {
 
 
 };
-gdjs.evtsExt__WithThreeJS__onFirstSceneLoaded.userFunc0xc85e48 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__onFirstSceneLoaded.userFunc0x18f7570 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // Custom
 if (gdjs.__WithThreeJS.get("NoTHREE")) {
@@ -1129,7 +1129,7 @@ if (gdjs.__WithThreeJS.get("NoTHREE")) {
 } )();
 
 };
-gdjs.evtsExt__WithThreeJS__onFirstSceneLoaded.userFunc0x12c80e0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__onFirstSceneLoaded.userFunc0x1374ad8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // Custom
 if (gdjs.__WithThreeJS.get("NoTHREE")) {
@@ -1582,7 +1582,7 @@ gdjs.evtsExt__WithThreeJS__onFirstSceneLoaded.eventsList0 = function(runtimeScen
 {
 
 
-gdjs.evtsExt__WithThreeJS__onFirstSceneLoaded.userFunc0x18c2d38(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__onFirstSceneLoaded.userFunc0x11a4628(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -1597,7 +1597,7 @@ gdjs.evtsExt__WithThreeJS__onFirstSceneLoaded.userFunc0x18c2d38(runtimeScene, ty
 {
 
 
-gdjs.evtsExt__WithThreeJS__onFirstSceneLoaded.userFunc0xc85e48(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__onFirstSceneLoaded.userFunc0x18f7570(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -1612,7 +1612,7 @@ gdjs.evtsExt__WithThreeJS__onFirstSceneLoaded.userFunc0xc85e48(runtimeScene, typ
 {
 
 
-gdjs.evtsExt__WithThreeJS__onFirstSceneLoaded.userFunc0x12c80e0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__onFirstSceneLoaded.userFunc0x1374ad8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

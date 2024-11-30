@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Create3DLightV2 !== "undefined") {
 gdjs.evtsExt__WithThreeJS__Create3DLightV2 = {};
 
 
-gdjs.evtsExt__WithThreeJS__Create3DLightV2.userFunc0x11d9e00 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Create3DLightV2.userFunc0x1176180 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -127,7 +127,7 @@ gdjs.evtsExt__WithThreeJS__Create3DLightV2.eventsList0 = function(runtimeScene, 
 {
 
 
-gdjs.evtsExt__WithThreeJS__Create3DLightV2.userFunc0x11d9e00(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Create3DLightV2.userFunc0x1176180(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

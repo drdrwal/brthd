@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__CreatedSceneName !== "undefined") {
 gdjs.evtsExt__WithThreeJS__CreatedSceneName = {};
 
 
-gdjs.evtsExt__WithThreeJS__CreatedSceneName.userFunc0x1326310 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__CreatedSceneName.userFunc0x116c140 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = gdjs.__WithThreeJS.get("SceneIsReady");
 };
@@ -17,7 +17,7 @@ gdjs.evtsExt__WithThreeJS__CreatedSceneName.eventsList0 = function(runtimeScene,
 {
 
 
-gdjs.evtsExt__WithThreeJS__CreatedSceneName.userFunc0x1326310(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__CreatedSceneName.userFunc0x116c140(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

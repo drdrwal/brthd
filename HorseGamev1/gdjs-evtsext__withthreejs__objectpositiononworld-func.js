@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__ObjectPositionOnWorld !== "undefined") {
 gdjs.evtsExt__WithThreeJS__ObjectPositionOnWorld = {};
 
 
-gdjs.evtsExt__WithThreeJS__ObjectPositionOnWorld.userFunc0xf0d4f0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__ObjectPositionOnWorld.userFunc0x18f3cb0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -41,7 +41,7 @@ gdjs.evtsExt__WithThreeJS__ObjectPositionOnWorld.eventsList0 = function(runtimeS
 {
 
 
-gdjs.evtsExt__WithThreeJS__ObjectPositionOnWorld.userFunc0xf0d4f0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__ObjectPositionOnWorld.userFunc0x18f3cb0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

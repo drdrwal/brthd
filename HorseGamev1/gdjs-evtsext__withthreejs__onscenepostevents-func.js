@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__onScenePostEvents !== "undefined") {
 gdjs.evtsExt__WithThreeJS__onScenePostEvents = {};
 
 
-gdjs.evtsExt__WithThreeJS__onScenePostEvents.userFunc0x18c2d38 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__onScenePostEvents.userFunc0x11a4628 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // console.log("Three.js post events");
 if (!gdjs.__WithThreeJS.has("Renderer")) {
@@ -41,7 +41,7 @@ gdjs.evtsExt__WithThreeJS__onScenePostEvents.eventsList0 = function(runtimeScene
 {
 
 
-gdjs.evtsExt__WithThreeJS__onScenePostEvents.userFunc0x18c2d38(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__onScenePostEvents.userFunc0x11a4628(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

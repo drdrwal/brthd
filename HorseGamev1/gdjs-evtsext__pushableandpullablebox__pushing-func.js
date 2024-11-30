@@ -60,7 +60,7 @@ gdjs.evtsExt__PushableAndPullableBox__Pushing.forEachTemporary3 = gdjs.evtsExt__
 gdjs.evtsExt__PushableAndPullableBox__Pushing.GDBoxObjects3.push(gdjs.evtsExt__PushableAndPullableBox__Pushing.forEachTemporary3);
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(21769252);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(21772868);
 }
 if (isConditionTrue_0) {
 {for(var i = 0, len = gdjs.evtsExt__PushableAndPullableBox__Pushing.GDBoxObjects3.length ;i < len;++i) {

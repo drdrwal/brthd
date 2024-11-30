@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Load3DModelFromOBJ !== "undefined") {
 gdjs.evtsExt__WithThreeJS__Load3DModelFromOBJ = {};
 
 
-gdjs.evtsExt__WithThreeJS__Load3DModelFromOBJ.userFunc0x13144f8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Load3DModelFromOBJ.userFunc0xc579f0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -32,7 +32,7 @@ gdjs.evtsExt__WithThreeJS__Load3DModelFromOBJ.eventsList0 = function(runtimeScen
 {
 
 
-gdjs.evtsExt__WithThreeJS__Load3DModelFromOBJ.userFunc0x13144f8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Load3DModelFromOBJ.userFunc0xc579f0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

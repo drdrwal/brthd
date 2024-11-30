@@ -154,7 +154,7 @@ body{
     display: flex;
     align-self: center;
     justify-content: center;
-    width: 70%;
+    width: 100%;
 }
 .game{
     margin-top: 100px;

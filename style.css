@@ -1,5 +1,11 @@
+@font-face {
+    font-family: Borel;
+    src: url(Borel-Regular.ttf);
+  }
+
 body{
     margin: 0;
+    background-color: black;
     
 }
 
@@ -17,28 +23,36 @@ body{
     
 }
 
+.header img{
+    
+    align-self: center;
+    justify-content: center;
+    height: 100%;
+    image-rendering: pixelated;
+    
+}
+
 .header{
     display: flex;
-    background-color:#9035e4 ;
+    background:white;
     width: 100%;
     height: 50px;
-    border-bottom: 10px solid #752bbb;
-    justify-content: center;
+    justify-content: space-between;
     align-content:center;
     transition: height 0.3s;
     font-size:16px;
     transition: all 0.3s;
 }
 @keyframes colors{
-    0%{--color1: rgb(0, 0, 0);}
-    50%{--color1: rgb(109, 0, 115);}
-    100%{--color1: rgb(0, 0, 0);}
+    0%{opacity: 0%;}
+    100%{opacity: 100%;}
 }
 .header:hover{
     display: flex;
-    background:url("/images/rainbow.gif"), rgba(0, 0, 0, 0.512) ;
+    background:linear-gradient(purple, rgb(0, 0, 0));
     background-blend-mode: overlay;
     background-size: contain;
+    background-origin: 0px;
 
     height: 150px;
     border-bottom: 10px solid black;
@@ -90,7 +104,7 @@ body{
     width: 100%;
     animation-name: colors;
     animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 
 }
 .text{
@@ -106,8 +120,18 @@ body{
     margin: 0;
     background: linear-gradient(black, rgba(0, 0, 0, 0));
     font-size: 30px;
+    animation-name: colors;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.text::onload{
+    opacity: 0;
+}
+
 .text2{
     margin-top: 10px;
     display: flex;
@@ -120,7 +144,8 @@ body{
     margin: 0;
     background: linear-gradient(rgba(0, 0, 0, 0),black );
     font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Borel, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
 }
 
 .text2 p{
@@ -135,7 +160,7 @@ body{
     display: flex;
     backdrop-filter: blur(10px, 2px);
     padding: 10px 10px 10px 10px;
-    width: 90%;
+    width: 800px;
     height: 60%;
     box-shadow: 0px 0px 50px 10px rgb(0, 0, 0);
     border-radius: 5px;
@@ -153,8 +178,25 @@ body{
 #two{
     padding: 10px;
     border-radius: 16px;
-
     width: 70%;
     justify-self: center;
     align-self: center;
+}
+
+.imgs{
+    align-self: center;
+    width: 30%;
+}
+
+#bottom{
+    font-weight: 900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    padding: 0;
 }
